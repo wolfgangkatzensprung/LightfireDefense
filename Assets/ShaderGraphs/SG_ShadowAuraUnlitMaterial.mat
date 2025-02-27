@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SG_ShadowAuraUnlitMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 12146e5e062ba994f850cbe55397f60d,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_9890D490:
+        m_Texture: {fileID: 2800000, guid: 4cdecdfbc6f2fa34689b6691b5d55879, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4517a238c5cf88841a42471f9079bc50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_5591488C: 0.5
+    - Vector1_FA0402D4: 0
+    m_Colors:
+    - Color_A033433E: {r: 1, g: 1, b: 1, a: 0}
+    - Vector2_52713CD7: {r: 0.1, g: 0, b: 0, a: 0}
+    - Vector4_E1F9FEA4: {r: 12, g: 2, b: 1, a: 1}

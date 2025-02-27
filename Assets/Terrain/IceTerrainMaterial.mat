@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: IceTerrainMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: b02f74ec7d450f74ba59575b04c1e827,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_B929319A:
+        m_Texture: {fileID: 2800000, guid: 740f96d568f4f3e40b049c40f11603e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_BD4F3FA4_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4e3951c538fc8a647a4a10a99b480987, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_26DE9088: 0.07
+    - Vector1_4BB7EA06: 201.2
+    - Vector1_60BDBE08: 1
+    - Vector1_69E8DAD9: 0.705
+    - Vector1_9C53B23F: 1.04
+    - Vector1_A140BB3: 8.08
+    - Vector1_AAE5E57F: 0.762
+    - Vector1_CB9BB152: 0.507
+    - Vector1_D6623BE: 0.001
+    - Vector1_F20E7B3F: 200
+    m_Colors:
+    - Color_3A30E108: {r: 0.18422928, g: 0.5971278, b: 0.8679245, a: 0}
+    - Color_E1F33C33: {r: 0, g: 0.56861687, b: 1, a: 0}
+    - Color_FD84C8CD: {r: 0.57916516, g: 0.7752292, b: 0.8962264, a: 0}
+    - Vector2_7B5C888A: {r: 7, g: 7, b: 0, a: 0}
+    - Vector3_154BEBBE: {r: 0.1, g: 0.1, b: 0.1, a: 0.1}
+    - Vector3_749FA6DB: {r: -12, g: 0.55, b: 0.55, a: 0}

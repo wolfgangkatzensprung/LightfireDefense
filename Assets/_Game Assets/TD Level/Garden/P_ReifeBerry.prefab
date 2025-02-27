@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5329008929764974911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4809740840659778437}
+  - component: {fileID: 8435376633245463584}
+  - component: {fileID: 5977557718459285738}
+  - component: {fileID: 8694352668239244808}
+  - component: {fileID: 2108072636077418546}
+  - component: {fileID: 1741542952343224093}
+  - component: {fileID: 696016787267826910}
+  m_Layer: 10
+  m_Name: P_ReifeBerry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4809740840659778437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329008929764974911}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.64, y: 3.34, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 7497923607586137029}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8435376633245463584
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329008929764974911}
+  m_Mesh: {fileID: 289301614986012343, guid: 82e82a2401d3870419249749774e516d, type: 3}
+--- !u!23 &5977557718459285738
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329008929764974911}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5dd5f66906f10d14296579f619f2fae9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!54 &8694352668239244808
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329008929764974911}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &2108072636077418546
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329008929764974911}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.9999999
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1741542952343224093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329008929764974911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889d8fc4a34408744864826982a33aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: Berry
+--- !u!114 &696016787267826910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329008929764974911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1388c876a44dec4ab9c85ec87703a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eatBerryParticles: {fileID: 1355888875185492670, guid: 75b1c77074f30c64e8c55b58ab3fafc0,
+    type: 3}
+  blueEnchantedParticles: {fileID: 6247965495322211553, guid: dc55656a1114c2741a5dad3e06427aab,
+    type: 3}
+  orangeEnchantedParticles: {fileID: 6247965495322211553, guid: 9ed6b1d3ec75c1e4296dd5c3df2bafe0,
+    type: 3}
+  orangeParticleMaterial: {fileID: 2100000, guid: 81ab5446b490ff4418fdaa79d0629ab6,
+    type: 2}
+  blueParticleMaterial: {fileID: 2100000, guid: 2236c3b3d76d30248b8d1a3d6a0c87f2,
+    type: 2}
+  riseStrength: 55
+  riseHeight: 66
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+--- !u!1001 &6234571510380403950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4809740840659778437}
+    m_Modifications:
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247965495322211553, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_Name
+      value: BerryParticles
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815073888365500646, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815073888365500646, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+        type: 3}
+      propertyPath: m_RenderAlignment
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20b1bc256c1e26a43991f3e86d9f3806, type: 3}
+--- !u!4 &7497923607586137029 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4505952626106531627, guid: 20b1bc256c1e26a43991f3e86d9f3806,
+    type: 3}
+  m_PrefabInstance: {fileID: 6234571510380403950}
+  m_PrefabAsset: {fileID: 0}

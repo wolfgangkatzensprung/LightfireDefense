@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: aed33022ab6a9bf4c8bab1ac2289a002
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_HealSound: {fileID: 8300000, guid: 92742daec953e624096310a0aa7994eb, type: 3}
+  - m_CoughSound: {fileID: 8300000, guid: 549ee5506ec85544ebe13e46ceb0bdc6, type: 3}
+  - m_BreakLegsSound: {fileID: 8300000, guid: 3bacf4b0eb8db2043bd10da209403721, type: 3}
+  - m_ExplosionNoise: {fileID: 8300000, guid: 6a3f62bf2f007c646be07be86ec22dbc, type: 3}
+  - m_NormalSnapshot: {fileID: 24500006, guid: 439d7d260bd1a1d49ac3f31a76cb4381, type: 2}
+  - m_StunnedSnapshot: {fileID: 245839467751298430, guid: 439d7d260bd1a1d49ac3f31a76cb4381,
+      type: 2}
+  - m_DeadCharacter: {fileID: 1581970581462352, guid: 9a0310892fdd0c642835396d53d08f7a,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

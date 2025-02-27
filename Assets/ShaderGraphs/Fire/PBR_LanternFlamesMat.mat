@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PBR_LanternFlamesMat
+  m_Shader: {fileID: -6465566751694194690, guid: 684dcafdcfa70a34681277cccef7c246,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_CADEFD2A:
+        m_Texture: {fileID: 2800000, guid: ca1646e6a7d1fe64697c8d1aaa282aa6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1F9BB8ED: 1
+    - Vector1_372A0B53: 7
+    - Vector1_616EE152: 1
+    - Vector1_6AB185A8: 20
+    - Vector1_A9CEB284: 1.2
+    - Vector1_D5153F84: 0.1
+    - Vector1_F4DB6187: 0
+    m_Colors:
+    - Color_5AD96EB0: {r: 0.8113208, g: 0.3651185, b: 0.19517621, a: 1}

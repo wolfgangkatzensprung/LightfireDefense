@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PBR_GroundGridMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 9ccff10044ec5db428793e13b37b1553,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_54BDBB9A_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 812e77b11db1b74488400283ed9f6ce9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7B4C9E26_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 812e77b11db1b74488400283ed9f6ce9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_174927A3: 0
+    - Boolean_4E8C260E: 0
+    - Boolean_C2D23C40: 0
+    - Boolean_F33DC537: 0
+    - Vector1_9E76491B: 0
+    - Vector1_BD95346F: 8.69
+    - Vector1_FCF72AF6: 0.9
+    m_Colors:
+    - Color_63E89D99: {r: 4.6431375, g: 19.32549, b: 23.968628, a: 1}
+    - Vector2_22C21A21: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_38DAAFF3: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - Vector2_B7A860B5: {r: 0.01, g: 0.01, b: 0, a: 0}

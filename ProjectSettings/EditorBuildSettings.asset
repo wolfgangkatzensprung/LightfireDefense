@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 0f6ad77d76fd97b468d4a302a3d1fa89
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: 943169c4ddfd082448e7aca53a12c59c
+  - enabled: 0
+    path: Assets/Scenes/VideoRecordingScene.unity
+    guid: 5a7a8d6bd8063754fa413550c1227882
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: cceb6a7b84c8c7048ba186f758a19b7d
+  - enabled: 1
+    path: Assets/Scenes/TD Level.unity
+    guid: 9d7c11fa73bf32e4c9c6a9344d40b9e6
+  - enabled: 1
+    path: Assets/Scenes/FluxCube.unity
+    guid: 5f5fa12f12a80f7468af20759bd460bc
+  - enabled: 0
+    path: Assets/Scenes/Elementar Levels/Forest.unity
+    guid: 7bb06426aea5bf945bba10a92824cc95
+  - enabled: 0
+    path: Assets/Scenes/Elementar Levels/Archipel.unity
+    guid: d2af47034fdb97f46acd0bb74e01aeb0
+  - enabled: 1
+    path: Assets/Scenes/Elementar Levels/LavaLake.unity
+    guid: 988141e4a19bd9b40985b52067562153
+  - enabled: 1
+    path: Assets/Scenes/Elementar Levels/Sky.unity
+    guid: 69834934656d7a14181fb88b25266a4a
+  - enabled: 1
+    path: Assets/Scenes/EnemyWorld.unity
+    guid: 167befbbbe5b6bc4e9ac6d24f468389f
+  - enabled: 0
+    path: Assets/Scenes/TestingScene.unity
+    guid: f75ce59623cac864c8fe9f2e9f90ca31
+  - enabled: 0
+    path: Assets/Scenes/TD Level Custom Copy.unity
+    guid: ed3bbf45651263b4ebc2786d95e840fb
+  - enabled: 0
+    path: Assets/Scenes/Elementar Levels/LavaLake Insta Copy.unity
+    guid: 668419ca305ffea4b9bf0c031d86e5f6
+  - enabled: 0
+    path: Assets/Scenes/StartMenu_Copy for VIdeo.unity
+    guid: bf79ffb2abb90b240a4d75e595ad7e3d
+  m_configObjects: {}

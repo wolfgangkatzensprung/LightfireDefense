@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7400485652219308473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -7169315677893894291, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: orbCollectedTextString
+      value: 'You found the Orb of Gravity.
+
+        <i>+ GravityJump unlocked</i>'
+      objectReference: {fileID: 0}
+    - target: {fileID: -6626604053754106999, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: keyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354913, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_Name
+      value: EarthSphereKey Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.280533
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 77.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354925, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185528923666354927, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b468d2277934f164db5b6a64dfdc7466, type: 2}
+    - target: {fileID: 5008457889145407509, guid: 12b23a63528d4954eab6b68281b20329,
+        type: 3}
+      propertyPath: customName
+      value: Orb of Gravity
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12b23a63528d4954eab6b68281b20329, type: 3}

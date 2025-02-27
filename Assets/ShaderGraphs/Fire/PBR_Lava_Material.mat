@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PBR_Lava_Material
+  m_Shader: {fileID: -6465566751694194690, guid: 871255e8999841c4e9c1844456793c0d,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2E644C9B:
+        m_Texture: {fileID: 2800000, guid: 2e4eb6ce34ea7e14991e883ffa7c33e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6FB0C037:
+        m_Texture: {fileID: 2800000, guid: ff6d0479db5058f42878d15454bd3fc9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5D34D77B_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_15B2F5BF: 56.6
+    - Vector1_27D4D6EE: 0.05
+    - Vector1_32D8E3FA: 1
+    - Vector1_33B04C5D: 0.1
+    - Vector1_36778613: 1
+    - Vector1_3D27D36F: 1
+    - Vector1_65EB85AE: 0
+    - Vector1_69890E74: 128
+    - Vector1_6A6D4D1E: -3.7
+    - Vector1_773B3C73: 0.2
+    - Vector1_8AC0A660: -0.09
+    - Vector1_920A3C31: 0.12
+    - Vector1_95F367AE: 1.17
+    - Vector1_BF41D39E: 1.05
+    - Vector1_C795424E: 23
+    - Vector1_CDAB7A76: 0
+    - Vector1_E07004BE: 0.7
+    - Vector1_E6CB4EBA: -5.1
+    - Vector1_F1F8C67E: 0.12
+    m_Colors:
+    - Color_22BBEC9E: {r: 1.4980392, g: 0.10980392, b: 0, a: 1}
+    - Color_2890BA2A: {r: 1, g: 0.08955224, b: 0, a: 1}
+    - Color_5F917A3C: {r: 1024, g: 96.37647, b: 0, a: 1}
+    - Color_713860D1: {r: 0.7490196, g: 0, b: 0.019607844, a: 1}
+    - Vector2_28524230: {r: 3, g: 2, b: 0, a: 0}

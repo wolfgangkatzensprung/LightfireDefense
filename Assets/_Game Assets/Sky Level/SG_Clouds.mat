@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SG_Clouds
+  m_Shader: {fileID: -6465566751694194690, guid: 8d6b77a61770ced4d994fc2086c24bdb,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_1186772A: 0.05
+    - Vector1_4C3622F0: -34
+    - Vector1_5C1B1CC2: 2.31
+    - Vector1_62C9C602: 3.05
+    - Vector1_64ABC3A7: 0
+    - Vector1_707089B1: 3
+    - Vector1_7E09DD3A: 0.05
+    - Vector1_8924ECF8: -2.89
+    - Vector1_89379B5C: 40.2
+    - Vector1_9012973: 33
+    - Vector1_996C1109: 0.05
+    - Vector1_9DE2C871: 49.3
+    - Vector1_B79F7A6C: 5.85
+    - Vector1_D91BCF9C: 134.8
+    m_Colors:
+    - Color_4FF2E138: {r: 0.64435744, g: 0.6763973, b: 0.754717, a: 1}
+    - Color_570CCB9D: {r: 0.3632075, g: 0.6503885, b: 1, a: 1}
+    - Vector4_220D6CBF: {r: 0.12, g: 0.96, b: -1.8, a: 63}
+    - Vector4_8E8E0A65: {r: 1, g: 0, b: 0, a: 90}

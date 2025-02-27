@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6866589649972781405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6053073518737767399}
+  - component: {fileID: 7182975178714854466}
+  - component: {fileID: 4921302548032241800}
+  - component: {fileID: 6019746130587032903}
+  - component: {fileID: 6019746130587032896}
+  - component: {fileID: 6676772981539274310}
+  - component: {fileID: 8773603474168046498}
+  - component: {fileID: -6729266885312369915}
+  - component: {fileID: 636708245697506902}
+  - component: {fileID: 7376026044164499889}
+  m_Layer: 9
+  m_Name: ShadowChaosBoss
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6053073518737767399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.868665, y: 6.271159, z: 7.1279507}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7182975178714854466
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_Mesh: {fileID: -116293343589278601, guid: d9b2c987d0ec92046a6b830fcbcfca18, type: 3}
+--- !u!23 &4921302548032241800
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3588823401e054e4f902487c184d9bee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &6019746130587032903
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 3.64
+  m_Height: 11.25
+  m_Direction: 0
+  m_Center: {x: -0.1592443, y: -0.2509749, z: 0.52365863}
+--- !u!114 &6019746130587032896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7200f35a1e349b409bf988300d439c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 20
+  dmgType: 9
+--- !u!54 &6676772981539274310
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  serializedVersion: 2
+  m_Mass: 26
+  m_Drag: 0.5
+  m_AngularDrag: 0.1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8773603474168046498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c3860273962df438eb3a1443b823ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 1000
+  mobType: 9
+  tdMob: 1
+--- !u!114 &-6729266885312369915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1d7ca31a59c6c47806fbb2c9e19306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nexusDamageParticles: {fileID: 113592943196535472, guid: 036aa99534f811f4d9d3e97bc9314c3e,
+    type: 3}
+  wayPointRange: 15
+  invadeRange: 12
+  lighthouseDamage: 10
+  startSpeed: 94
+  velocitySpeed: 10
+  sqrMaxVelocity: 300
+--- !u!114 &636708245697506902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad51fbe7eaf0b124b986d06b668e5bf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specialDropPrefab: {fileID: 5240910917542075903, guid: 0bc78570c1dafd442a2cdf064143a8d6,
+    type: 3}
+  moneyAmount: 1
+  lootDropChance: 0.01
+  exp: 10
+--- !u!114 &7376026044164499889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866589649972781405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f926ebb86c08d409fecd6a079b0dc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagedParticlePrefab: {fileID: 113592943196535472, guid: 456199ee903ecd4468a091db2e14e2f3,
+    type: 3}
+  deathParticlePrefab: {fileID: 113592943196535472, guid: 519d32ee00e7ce142adcbad327a3f597,
+    type: 3}

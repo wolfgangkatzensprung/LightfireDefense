@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PBR_PinkFresnelGlow
+  m_Shader: {fileID: -6465566751694194690, guid: 5a0d85dac2d35f145bed681995b6ad7a,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_A80D2E43: 1
+    m_Colors:
+    - Color_380DC112: {r: 0.6603774, g: 0.15263441, b: 0.4626722, a: 0}
+    - Color_AD791F93: {r: 5.992157, g: 1.0666667, b: 5.2705884, a: 0}

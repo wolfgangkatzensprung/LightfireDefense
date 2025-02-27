@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PBR_SpellFieldIndicatorMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 1102fb69c5282e04a891160dc3539045,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_4E169F97: 0.1
+    - Vector1_647EA6C6: 1
+    - Vector1_65FCCC12: 12
+    - Vector1_7C1ED486: 0.66
+    - Vector1_7C53A67A: 0.1
+    - Vector1_7FCD26C1: 0.3
+    - Vector1_9859E72F: 0.5
+    - Vector1_99E9ADB2: 0.01
+    - Vector1_B0F9280A: 12
+    - Vector1_BDE27003: 3
+    - Vector1_D1E46556: 4.99
+    m_Colors:
+    - Color_12215B39: {r: 59.714115, g: 59.714115, b: 59.714115, a: 1}
+    - Color_124A9418: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_89BAFFB5: {r: 42, g: 12, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

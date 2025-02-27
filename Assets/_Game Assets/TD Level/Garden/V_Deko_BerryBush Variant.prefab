@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6129365679027601359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4506459274865111754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e7a98560fba6cb4494f2e1b4e5ef03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minScale: {x: 0.5, y: 0.5, z: 0.5}
+  maxScale: {x: 1.5, y: 1.5, z: 1.5}
+--- !u!1001 &5534492809293936348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.7831767
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2483056
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.549451
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498462326002315463, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 982123869415942781, guid: aeb4f61d5476c4640808f998351f0f2e,
+        type: 3}
+      propertyPath: m_Name
+      value: V_Deko_BerryBush Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 99182155539172442, guid: aeb4f61d5476c4640808f998351f0f2e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: aeb4f61d5476c4640808f998351f0f2e, type: 3}
+--- !u!1 &4506459274865111754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8233810706503451670, guid: aeb4f61d5476c4640808f998351f0f2e,
+    type: 3}
+  m_PrefabInstance: {fileID: 5534492809293936348}
+  m_PrefabAsset: {fileID: 0}
